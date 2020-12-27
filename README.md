@@ -1,6 +1,6 @@
 # NumericalMethods
 
-This package is a list of numerical methods done in kotlin primarily for jvm with no outside dependencies.
+This package is a list of numerical methods done in kotlin primarily for jvm with minimal dependencies.
 
 ## TODO
 1. Add documentation and tests.
