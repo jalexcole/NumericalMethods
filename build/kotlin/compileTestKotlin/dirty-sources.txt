@@ -1,0 +1,1 @@
+/home/alex/IdeaProjects/NumericalMethods/src/test/kotlin/BisectionKtTest.kt
