@@ -19,3 +19,13 @@ fun linspace(start: Float, stop: Float, stepCount: Int = 50): Array<Float> {
 
     return linspaceArray
 }
+
+fun linspace(start: Int, stop: Int, stepCount: Int = 50): Array<Double> {
+    val step = (stop.toDouble() - start.toDouble()) / stepCount.toDouble()
+    val linspaceArray = arrayOf<Double>()
+    for (i in linspaceArray.indices) {
+        linspaceArray[i] = start + i * step
+    }
+
+    return linspaceArray
+}
